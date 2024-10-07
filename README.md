@@ -49,12 +49,6 @@ The program uses OpenCV's Haar Cascade classifier for face detection.
    ![alt text](image.png)
 3. Press 'q' to quit the program
 
-## Note
-The current implementation assumes that you have trained the model and saved the weights. You need to uncomment and modify the following line with the path to your trained weights:
-```python
-# model.load_weights('path_to_your_trained_weights.h5')
-```
-
 ## Potential Improvements
 1. Implement model training and weight saving
 2. Add command-line arguments for camera selection and model path
