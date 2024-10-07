@@ -56,7 +56,7 @@ while True:
         cv2.putText(frame, f'{gender}, {emotion}', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36,255,12), 2)
 
     cv2.imshow('Gender and Emotion Detection', frame)
-
+    #press "q" to quit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
